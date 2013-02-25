@@ -8,7 +8,7 @@ $(document).ready(function() {
  });
 
 function calculate() {
-  var result;
+  //var result;
   var original       = document.getElementById("original");
   var temp = original.value;
   var regexp = /"((?:[^"\\]|\\.)*)"\s*,?(\s*([^,]+),?|\s*/g;
